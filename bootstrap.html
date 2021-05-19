@@ -8,19 +8,62 @@
     <!--font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!--Bootstrap cdn-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        #feedback{
+            background: #0d0442;
+            padding: 7% 10%;
+        }
+        .hr-style{
+            border: 5px dotted white;
+            border-bottom: none;
+            width: 50px;
+
+        }
+        .carousel-item{
+            padding: 5% 15%;
+            text-align: center;
+            font-style: italic;
+        }
+        .feedback-image{
+            width: 250px;
+            height: 200px;
+        }
+        .carousel-indicators{
+            bottom: -20;
+        }
+
+    </style>
     
 </head>
 <body>
     <div class="container">
-        <header class="bg-secondary text-white px-1 py-1 text-center text-md-right ">
-            <h1>Study with Islam</h1>
+        <header>
+            <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+                <a href="" class="navbar-brand">
+                    <img src="index.jpg" alt="logo" style="width: 50px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Study</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    </ul>
+
+                  </div>
+                
+                
+            </nav>
 
         </header>
         <main>
-            <div class="service-section bg-info p-3">
-                <div class="title text-center mb-2 ">
+            <div class="service-section bg-info p-5">
+                <div class="title text-center mb-5 ">
                     <h3>Services</h3>
                 </div>
                 
@@ -68,6 +111,10 @@
                         </div>
                         <div class="col-lg-8">
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In illo sunt odit dicta nihil earum commodi perferendis! At quidem aspernatur, exercitationem praesentium error ipsum cupiditate? Ad exercitationem odio commodi facilis minus nesciunt eaque vitae eos officia aperiam dicta cupiditate, nemo enim accusantium, pariatur impedit quod minima quidem est facere sapiente deleniti ducimus, dolorem aliquid. Impedit molestias officia praesentium accusamus voluptate repellat at? In deleniti excepturi itaque saepe, earum minima quae rerum! Porro alias iure nostrum praesentium. Temporibus suscipit commodi debitis porro dolorem enim accusamus accusantium asperiores consequuntur, quod necessitatibus, ratione alias labore eligendi veniam. Vitae quis rerum consectetur impedit sapiente?</p>
+                            <a href="#demo" data-toggle="collapse">Learn More</a>
+                            <div id="demo" class="collapse">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea quod corporis inventore nisi dolore qui ut? Vitae quod harum itaque consequuntur accusantium culpa quisquam tempore, dolor laborum laboriosam exercitationem enim temporibus possimus, quo, mollitia esse aut aliquam perferendis voluptatibus debitis deleniti distinctio! Enim sequi alias odit sint obcaecati eum.</p>
+                            </div>
 
                             <div class="btn-group">
                                 <button class="btn btn-outline-primary mb-3">CV DOWNLOAD</button>
@@ -91,6 +138,111 @@
 
             </div>
             <!--about me section end-->
+            <!--Education section start here-->
+            <div class="education-section my-5">
+                <div class="title text-center mb-3">
+                    <h3 class="font-weight-bolder">Education</h3>
+                </div>
+                <table class="table table-striped table-bordered table-hover table-dark text-center">
+                    <thead>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>Institution</th>
+                            <th>Passing Year</th>
+                            <th>Grade</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SSC</td>
+                            <td>boys high school</td>
+                            <td>2013</td>
+                            <td>3.44</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>boys high school</td>
+                            <td>2013</td>
+                            <td>3.44</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>boys high school</td>
+                            <td>2013</td>
+                            <td>3.44</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>boys high school</td>
+                            <td>2013</td>
+                            <td>3.44</td>
+
+                    </tbody>
+                </table>
+
+            </div>
+             <!--Education section start here-->
+            <!--Card section start-->
+            <div class="card-section">
+               
+                    <div class="title text-center mb-4 ">
+                        <h3 class="font-weight-bold">Card Section</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img class="card-img-top" src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg" alt="image ">
+
+                                <div class="card-body">
+                                    <h4 class="card-title">Front-End Devlopment</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore.</p>
+                                    <a class="card-link stretched-link" target="blank" href="https://getbootstrap.com/docs/5.0/components/navbar/">Visit this playlist</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img class="card-img-top" src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg" alt="image ">
+
+                                <div class="card-body">
+                                    <h4 class="card-title">Front-End Devlopment</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore.</p>
+                                    <a class="card-link stretched-link" target="blank" href="https://getbootstrap.com/docs/5.0/components/navbar/">Visit this playlist</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img class="card-img-top" src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg" alt="image ">
+
+                                <div class="card-body">
+                                    <h4 class="card-title">Front-End Devlopment</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore.</p>
+                                    <a class="card-link stretched-link" target="blank" href="https://getbootstrap.com/docs/5.0/components/navbar/">Visit this playlist</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img class="card-img-top" src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg" alt="image ">
+
+                                <div class="card-body">
+                                    <h4 class="card-title">Front-End Devlopment</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore.</p>
+                                    <a class="card-link stretched-link" target="blank" href="https://getbootstrap.com/docs/5.0/components/navbar/">Visit this playlist</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+            </div>
+            <!--Card section end-->
+
 
             <!--Customer section start-->
             <div class="Customer-Review bg-light text-center">
@@ -136,8 +288,53 @@
 
             </div>
             <!--Customer section end-->
+            <!--toggleable dynamic tab start here-->
+            <div class="other-section">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#edu">Education</a></li>
+                    <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">Skill</a></li>
+                    <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+
+                </ul>
+                <div class="tab-content">
+                    <div id="edu" class="tab-pane fade"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo illum qui dolore nisi aliquam aliquid. Sit autem nobis consequuntur nam.</p></div>
+                    <div id="skill" class="tab-pane fade"><p>La de borrando desnudo el de, escaleras repartiendo que al pero. Que come es sillas cielo por ceniza bajo fría.</p></div>
+                    <div id="hobby" class="tab-pane active"><p>Fyaal sydou syrolm erzem ualmun buol owog hioll urodum, sumha.</p></div>
+                </div>
+
+            </div>
+                
+
+            <!--toggleable dynamic tab END here-->
+            <!--Media  Object Section Start-->
+            <div class="media-section">
+                <div class="title text-center mb-4 ">
+                    <h3>Web Devlopment</h3>
+                </div>
+            
+            </div>
+            <div class="media border p-1 m-1">
+                <img style="height: 200px; width: 200px;" class="rounded-circle m-3" src="https://media.wired.com/photos/5cc244c9af643e2f373ebb28/master/pass/Coding-Becomes-Criminal.jpg" alt="image">
+                <div class="media-body">
+                    <h5>I am trying to learn Web Devlopment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officia nostrum. Tempore qui labore, quos quaerat consequatur a sunt provident. Expedita ipsa voluptate nemo voluptates, necessitatibus unde culpa aliquid at aut id, accusamus sapiente. Assumenda neque recusandae nulla eaque optio.</p>
+            
+                </div>
+            </div>
+            <div class="media border p-3">
+               
+                <div class="media-body">
+                    <h5>Learn Devlopment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ab sint illo illum aliquid.</p>
+
+                </div>
+                <img style="width: 80px;" class="rounded-circle mr-3" src="https://media.wired.com/photos/5cc244c9af643e2f373ebb28/master/pass/Coding-Becomes-Criminal.jpg" alt="image">
+                
+            </div>
+            
+            <!--Media  Object Section End-->
             <!--Student section start-->
-            <div class="student-list">
+            <div class="student-list ">
                 <ul class="list-group">
                     <li class="list-group-item bg-success text-white text-lg-center">sakil</li>
                     <li class="list-group-item bg-light text-dark text-lg-center">sakil</li>
@@ -145,14 +342,100 @@
                     <li class="list-group-item bg-dark text-white text-lg-center">sakil</li>
                 </ul>
             </div>
+            <br>
+            <!--Contact Section start here-->
+            <div class="contact-section bg-secondary">
+                <div class="title text-center mb-3">
+                    <h3 class="font-weight-bolder">Contact Me</h3>
+                    <form action="" class="w-50 m-auto was-validated">
+                        <div class="form-group">
+                            <label for="fullname">Fullname</label>
+                        <input type="text" class="form-control" name="Full Name" required>
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Enter your full name</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" name="subject">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">message</label>
+                            <textarea name="message" class="form-control" id="" cols="100" rows="15"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            
+                            <input type="submit" class="btn btn-primary" value="Submit">
+                            <input type="reset" class="btn btn-primary" value="Reset">
+
+                        </div>
+                    </form>
+                    </div>
+
+                </div>
+            <!--Contact Section end here-->
+                <div class="container text-white">
+                    <section id="feedback">
+                        <div class="section-title">
+                            <h3 class="text-center">Feedback</h3>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus vel voluptatem repellat? Corporis, illo obcaecati.</p>
+                                        <img class="feedback-image rounded-circle mb-4" src="https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220" alt="image">
+
+                                    </div>
+                                      <div class="carousel-item">
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut voluptatibus quas suscipit laboriosam earum velit asperiores a maiores quod!</p>
+                                          <img class="feedback-image rounded-circle mb-4" src="https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220" alt="image">
+                                       
+                                      </div>
+                                      <div class="carousel-item">
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis, est necessitatibus corrupti eos nobis eligendi corporis vitae adipisci maxime dolorum natus aliquid blanditiis illum vero debitis incidunt unde aut!</p>
+                                          <img class="feedback-image rounded-circle mb-4" src="https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220" alt="image">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+
+                            </div>
             
-           
-
-
-
+                        </div>
+            
+                    </section>
+                </div>
         </main>
-        <footer>
-
+        <footer class="bg-secondary">
+            <ul class="pagination py-3 justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                
+            </ul>
         </footer>
     </div>
 
